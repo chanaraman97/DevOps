@@ -37,6 +37,8 @@ sudo su -
    # Setup Jenkins to start at boot,
    chkconfig jenkins on
    ```
+   # To get the password
+   cat /var/lib/jenkins/secrets/initialAdminPassword
 
    ### Accessing Jenkins
    By default jenkins runs at port `8080`, You can access jenkins at
